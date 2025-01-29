@@ -20,28 +20,28 @@
             <p>Indicate the country that corresponds to this image</p>
 
             <p class="d-inline-flex gap-0">
-                <input type="radio" class="btn-check" name="quest1" id="q1a1" autocomplete="off" checked="">
+                <input type="radio" class="btn-check" name="quest1" id="q1a1" checked="">
                 <label class="btn btn-outline-dark" for="q1a1">Unselected</label>
                 
-                <input type="radio" class="btn-check" name="quest1" id="q1a2" autocomplete="off">
+                <input type="radio" class="btn-check" name="quest1" id="q1a2">
                 <label class="btn btn-outline-dark" for="q1a2">USA</label>
                 
-                <input type="radio" class="btn-check" name="quest1" id="q1a3" autocomplete="off" >
+                <input type="radio" class="btn-check" name="quest1" id="q1a3">
                 <label class="btn btn-outline-dark" for="q1a3">India</label>
                 
-                <input type="radio" class="btn-check" name="quest1" id="q1a4" autocomplete="off">
+                <input type="radio" class="btn-check" name="quest1" id="q1a4">
                 <label class="btn btn-outline-dark" for="q1a4">France</label>
                 
-                <input type="radio" class="btn-check" name="quest1" id="q1a5" autocomplete="off" onclick="addtoCount()">
+                <input type="radio" class="btn-check" name="quest1" id="q1a5" value="1" onclick="addtoCount()">
                 <label class="btn btn-outline-dark" for="q1a5">Italy</label>
 
-                <input type="radio" class="btn-check" name="quest1" id="q1a6" autocomplete="off">
+                <input type="radio" class="btn-check" name="quest1" id="q1a6">
                 <label class="btn btn-outline-dark" for="q1a6">Russia</label>
             </p>
 
             <div>
                 <button class="btn btn-warning" disabled>Previous</button>
-                <button class="btn btn-warning">Next</button>
+                <button class="btn btn-warning" onclick="next()">Next</button>
             </div>
         </div>
     </section>
@@ -52,28 +52,28 @@
             <p>Indicate the country that corresponds to this image</p>
 
             <p class="d-inline-flex gap-0">
-                <input type="radio" class="btn-check" name="quest2" id="q2a1" autocomplete="off" checked="">
+                <input type="radio" class="btn-check" name="quest2" id="q2a1" checked="">
                 <label class="btn btn-outline-dark" for="q2a1">Unselected</label>
                 
-                <input type="radio" class="btn-check" name="quest2" id="q2a2" autocomplete="off" onclick="addtoCount()">
+                <input type="radio" class="btn-check" name="quest2" id="q2a2" value="1" onclick="addtoCount()">
                 <label class="btn btn-outline-dark" for="q2a2">USA</label>
                 
-                <input type="radio" class="btn-check" name="quest2" id="q2a3" autocomplete="off" >
+                <input type="radio" class="btn-check" name="quest2" id="q2a3">
                 <label class="btn btn-outline-dark" for="q2a3">India</label>
                 
-                <input type="radio" class="btn-check" name="quest2" id="q2a4" autocomplete="off">
+                <input type="radio" class="btn-check" name="quest2" id="q2a4">
                 <label class="btn btn-outline-dark" for="q2a4">France</label>
                 
-                <input type="radio" class="btn-check" name="quest2" id="q2a5" autocomplete="off">
+                <input type="radio" class="btn-check" name="quest2" id="q2a5">
                 <label class="btn btn-outline-dark" for="q2a5">Italy</label>
 
-                <input type="radio" class="btn-check" name="quest2" id="q2a6" autocomplete="off">
+                <input type="radio" class="btn-check" name="quest2" id="q2a6">
                 <label class="btn btn-outline-dark" for="q2a6">Russia</label>
             </p>
 
             <div>
-                <button class="btn btn-warning">Previous</button>
-                <button class="btn btn-warning">Next</button>
+                <button class="btn btn-warning" onclick="previous()">Previous</button>
+                <button class="btn btn-warning" onclick="next()">Next</button>
             </div>
         </div>
     </section>
@@ -84,28 +84,28 @@
             <p>Indicate the country that corresponds to this image</p>
 
             <p class="d-inline-flex gap-0">
-                <input type="radio" class="btn-check" name="quest3" id="q3a1" autocomplete="off" checked="">
+                <input type="radio" class="btn-check" name="quest3" id="q3a1" checked="">
                 <label class="btn btn-outline-dark" for="q3a1">Unselected</label>
                 
-                <input type="radio" class="btn-check" name="quest3" id="q3a2" autocomplete="off">
+                <input type="radio" class="btn-check" name="quest3" id="q3a2">
                 <label class="btn btn-outline-dark" for="q3a2">USA</label>
                 
-                <input type="radio" class="btn-check" name="quest3" id="q3a3" autocomplete="off" >
+                <input type="radio" class="btn-check" name="quest3" id="q3a3">
                 <label class="btn btn-outline-dark" for="q3a3">India</label>
                 
-                <input type="radio" class="btn-check" name="quest3" id="q3a4" autocomplete="off">
+                <input type="radio" class="btn-check" name="quest3" id="q3a4">
                 <label class="btn btn-outline-dark" for="q3a4">France</label>
                 
-                <input type="radio" class="btn-check" name="quest3" id="q3a5" autocomplete="off">
+                <input type="radio" class="btn-check" name="quest3" id="q3a5">
                 <label class="btn btn-outline-dark" for="q3a5">Italy</label>
 
-                <input type="radio" class="btn-check" name="quest3" id="q3a6" autocomplete="off" onclick="addtoCount()">
+                <input type="radio" class="btn-check" name="quest3" id="q3a6" value="1" onclick="addtoCount()">
                 <label class="btn btn-outline-dark" for="q3a6">Russia</label>
             </p>
 
             <div>
-                <button class="btn btn-warning">Previous</button>
-                <button class="btn btn-warning">Next</button>
+                <button class="btn btn-warning" onclick="previous()">Previous</button>
+                <button class="btn btn-warning" onclick="next()">Next</button>
             </div>
         </div>
     </section>
@@ -116,28 +116,28 @@
             <p>Indicate the country that corresponds to this image</p>
 
             <p class="d-inline-flex gap-0">
-                <input type="radio" class="btn-check" name="quest4" id="q4a1" autocomplete="off" checked="">
+                <input type="radio" class="btn-check" name="quest4" id="q4a1" checked="">
                 <label class="btn btn-outline-dark" for="q4a1">Unselected</label>
                 
-                <input type="radio" class="btn-check" name="quest4" id="q4a2" autocomplete="off">
+                <input type="radio" class="btn-check" name="quest4" id="q4a2">
                 <label class="btn btn-outline-dark" for="q4a2">USA</label>
                 
-                <input type="radio" class="btn-check" name="quest4" id="q4a3" autocomplete="off" >
+                <input type="radio" class="btn-check" name="quest4" id="q4a3">
                 <label class="btn btn-outline-dark" for="q4a3">India</label>
                 
-                <input type="radio" class="btn-check" name="quest4" id="q4a4" autocomplete="off" onclick="addtoCount()">
+                <input type="radio" class="btn-check" name="quest4" id="q4a4" value="1" onclick="addtoCount()">
                 <label class="btn btn-outline-dark" for="q4a4">France</label>
                 
-                <input type="radio" class="btn-check" name="quest4" id="q4a5" autocomplete="off">
+                <input type="radio" class="btn-check" name="quest4" id="q4a5">
                 <label class="btn btn-outline-dark" for="q4a5">Italy</label>
 
-                <input type="radio" class="btn-check" name="quest4" id="q4a6" autocomplete="off">
+                <input type="radio" class="btn-check" name="quest4" id="q4a6">
                 <label class="btn btn-outline-dark" for="q4a6">Russia</label>
             </p>
 
             <div>
-                <button class="btn btn-warning">Previous</button>
-                <button class="btn btn-warning">Next</button>
+                <button class="btn btn-warning" onclick="previous()">Previous</button>
+                <button class="btn btn-warning" onclick="next()">Next</button>
             </div>
         </div>
     </section>
@@ -148,28 +148,28 @@
             <p>Indicate the country that corresponds to this image</p>
 
             <p class="d-inline-flex gap-0">
-                <input type="radio" class="btn-check" name="quest5" id="q5a1" autocomplete="off" checked="">
+                <input type="radio" class="btn-check" name="quest5" id="q5a1" checked="">
                 <label class="btn btn-outline-dark" for="q5a1">Unselected</label>
                 
-                <input type="radio" class="btn-check" name="quest5" id="q5a2" autocomplete="off">
+                <input type="radio" class="btn-check" name="quest5" id="q5a2">
                 <label class="btn btn-outline-dark" for="q5a2">USA</label>
                 
-                <input type="radio" class="btn-check" name="quest5" id="q5a3" autocomplete="off" onclick="addtoCount()">
+                <input type="radio" class="btn-check" name="quest5" id="q5a3" value="1" onclick="addtoCount()">
                 <label class="btn btn-outline-dark" for="q5a3">India</label>
                 
-                <input type="radio" class="btn-check" name="quest5" id="q5a4" autocomplete="off">
+                <input type="radio" class="btn-check" name="quest5" id="q5a4">
                 <label class="btn btn-outline-dark" for="q5a4">France</label>
                 
-                <input type="radio" class="btn-check" name="quest5" id="q5a5" autocomplete="off">
+                <input type="radio" class="btn-check" name="quest5" id="q5a5">
                 <label class="btn btn-outline-dark" for="q5a5">Italy</label>
 
-                <input type="radio" class="btn-check" name="quest5" id="q5a6" autocomplete="off">
+                <input type="radio" class="btn-check" name="quest5" id="q5a6">
                 <label class="btn btn-outline-dark" for="q5a6">Russia</label>
             </p>
 
             <div>
-                <button class="btn btn-warning">Previous</button>
-                <button class="btn btn-warning">Submit</button>
+                <button class="btn btn-warning" onclick="previous()">Previous</button>
+                <button class="btn btn-warning" onclick="next()">Submit</button>
             </div>
         </div>
     </section>
